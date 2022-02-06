@@ -1,6 +1,6 @@
 ---
-author: Kami
-title: Math Typesetting
+author: Kami Faure
+title: Can you do SEO yourself?
 date: 2019-03-08
 description: A brief guide to setup KaTeX
 blog: SEO

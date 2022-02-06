@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Authors on Bold Noises</title>
+    <title>Author on Bold Noises</title>
     <link>/author/</link>
-    <description>Recent content in Authors on Bold Noises</description>
+    <description>Recent content in Author on Bold Noises</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Kami</title>
+      <link>/author/kami/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/author/kami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kami Faure</title>
       <link>/author/kami-faure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>/author/kami-faure/</guid>
-      <description>Hellow thereiasubdfvusdbfku</description>
+      <description></description>
     </item>
     
   </channel>
