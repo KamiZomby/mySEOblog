@@ -15,8 +15,8 @@ siteVerificationTag = "XYZabc"
    author = "author"
 
 [params.homeInfoParams]
-Title = "Hi there wave"
-Content = "Can be Info, links, about..."
+Title = "SEO & PPC Blog"
+Content = "Learn, implement & get better at shouting out your creative business with the right tools & strategies."
 [minify]
 disableXML = true
 
@@ -63,5 +63,5 @@ name = "github"
 url = "https://github.com/KamiZomby"
 
 [Author]
-  name = "I am fallback author of blog post structure data"
+  name = "Kami Faure"
 

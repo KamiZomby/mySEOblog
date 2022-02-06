@@ -1,5 +1,5 @@
 ---
-author: Kami
+author: Kami Faure
 title: TRYING OUT Typesetting
 date: 2020-03-08
 description: A brief guide to setup KaTeX
