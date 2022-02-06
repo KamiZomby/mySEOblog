@@ -1,0 +1,76 @@
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 1024px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: rgb(255, 255, 255);
+    --entry: rgb(255, 255, 255);
+    --primary: rgb(30, 30, 30);
+    --secondary: rgb(108, 108, 108);
+    --tertiary: rgb(214, 214, 214);
+    --content: rgb(31, 31, 31);
+    --hljs-bg: rgb(28, 29, 33);
+    --code-bg: rgb(255, 255, 255);
+    --border: rgb(238, 238, 238);
+}
+
+a {
+    color: #CD5C5C;
+}
+.list {
+    background: ghostwhite;
+  }
+
+::selection {
+    background: #90EE90; /* WebKit/Blink Browsers */
+    color: black;
+  }
+  ::-moz-selection {
+    background: #90EE90; /* Gecko Browsers */
+  }
+
+.tags-section {
+    margin: 10px 0px 5px 0px;
+}
+
+.post-entry, .paginav, .share-buttons, .post-tags a {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.paginav {
+    padding: 15px 0px;
+}
+.entry-cover {
+    margin-bottom: 0px;
+}
+.post-content {
+    margin-top: 4%;
+}
+.post-tags a {
+    background-color: rgb(245, 245, 245);
+}
+
+.tag-entry .entry-cover {
+    display: block;
+}
+
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.first {
+    flex: 1;
+}
+.second {
+    flex: 0.4;
+    align-self: center;
+}
+@media only screen and (max-width: 600px) {
+    .second {
+        align-self: auto;
+    }
+}

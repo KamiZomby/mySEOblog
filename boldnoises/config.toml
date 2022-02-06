@@ -1,0 +1,67 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "Bold Noises"
+paginate = 10
+theme = "PaperMod"
+
+enableEmoji = true
+
+[analytics.google]
+siteVerificationTag = "XYZabc"
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   author = "author"
+
+[params.homeInfoParams]
+Title = "Hi there wave"
+Content = "Can be Info, links, about..."
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+    [[languages.en.menu.main]]
+    name = "About"
+    url = "/author/kami-faure"
+    weight = 5
+
+    [[languages.en.menu.main]]
+    name = "SEO"
+    url = "/blog/seo/"
+    weight = 6
+
+[[languages.en.menu.main]]
+    name = "PPC"
+    url = "/blog/marketing/"
+    weight = 10
+
+    [[languages.en.menu.main]]
+    name = "Other Tools"
+    url = "/blog/others/"
+    weight = 20
+
+
+[params]
+env = "production"
+description = "Bold SEO & PPC blog for creatives - https://github.com/adityatelange/hugo-PaperMod"
+logo = "favicon-32x32.png"
+copyright = "All rights reserved to Bold Noises"
+author = "Kami Faure"
+ShowShareButtons = true
+comments = true
+ShowBreadCrumbs = true
+TocOpen = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+
+[socialIcons]
+name = "github"
+url = "https://github.com/KamiZomby"
+
+[Author]
+  name = "I am fallback author of blog post structure data"
+
