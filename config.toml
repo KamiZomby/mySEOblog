@@ -16,7 +16,11 @@ siteVerificationTag = "XYZabc"
 
 [params.homeInfoParams]
 Title = "SEO & PPC Blog"
-Content = "Learn, implement & get better at shouting out your creative business with the right tools & strategies."
+Content = '''Learn, implement & get better at shouting out your creative business with the right tools & strategies 
+
+- Hello there
+
+- And now'''
 [minify]
 disableXML = true
 

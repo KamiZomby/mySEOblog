@@ -16,12 +16,18 @@
     --code-bg: rgb(255, 255, 255);
     --border: rgb(238, 238, 238);
 }
+.post-single {
+    padding: 4%;
+}
 
 a {
     color: #CD5C5C;
 }
 .list {
-    background: #fcfaf7;
+    background-color: #f7f7f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#bbbbbb 0.7000000000000001px, #f7f7f7 0.7000000000000001px);
+    background-size: 14px 14px;
   }
 
 ::selection {
