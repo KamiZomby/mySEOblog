@@ -1,4 +1,4 @@
-baseURL = "https://kamizomby.github.io/mySEOblog/"
+baseURL = "/"
 languageCode = "en-gb"
 title = "Bold Noises"
 paginate = 10
