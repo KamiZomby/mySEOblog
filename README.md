@@ -1,0 +1,2 @@
+# mySEOblog
+ SEO & PPC blog
