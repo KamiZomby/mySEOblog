@@ -6,7 +6,7 @@ description: A brief guide to setup KaTeX
 blog: SEO
 tags: ['Talks & News']
 math: true
-keywords: "SEO for beginners"
+keywords: ['SEO for beginners','DIY SEO']
 cover:
     image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
 keyword: "SEO"

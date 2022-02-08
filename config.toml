@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "Bold Noises"
+title = "IsNotHidden"
 paginate = 10
 theme = "PaperMod"
 
