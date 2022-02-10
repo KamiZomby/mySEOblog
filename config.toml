@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "RelnoBlank"
+title = "no rel tag"
 paginate = 5
 theme = "PaperMod"
 
@@ -18,7 +18,6 @@ siteVerificationTag = "XYZabc"
 Title = "SEO & PPC Blog"
 Content = '''Learn & implement the right SEO and PPC tools for your creative business or career
 - 
-
 - We talk about news in the industry, on-page/off-page SEO, paid & organic marketing and how to get familiar with data & reporting.
 -
 - Blog Categories: [SEO](/blog/seo) | [PPC](/blog/marketing) | [Other Tools](/blog/others) | [About Me](/author/kami-faure)
