@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "IsNotHidden"
-paginate = 10
+title = "RelnoBlank"
+paginate = 5
 theme = "PaperMod"
 
 enableEmoji = true
@@ -16,11 +16,19 @@ siteVerificationTag = "XYZabc"
 
 [params.homeInfoParams]
 Title = "SEO & PPC Blog"
-Content = '''Learn, implement & get better at shouting out your creative business with the right tools & strategies 
+Content = '''Learn & implement the right SEO and PPC tools for your creative business or career
+- 
 
-- Hello there
+- We talk about news in the industry, on-page/off-page SEO, paid & organic marketing and how to get familiar with data & reporting.
+-
+- Blog Categories: [SEO](/blog/seo) | [PPC](/blog/marketing) | [Other Tools](/blog/others) | [About Me](/author/kami-faure)
+- Latest posts below 👇 '''
 
-- And now'''
+[params.profileMode]
+enabled = false
+title = "<Title>"
+
+
 [minify]
 disableXML = true
 
@@ -51,9 +59,9 @@ weight = 1
 
 [params]
 env = "production"
-description = "Bold SEO & PPC blog for creatives - https://github.com/adityatelange/hugo-PaperMod"
+description = "SEO & PPC blog"
 logo = "favicon-32x32.png"
-copyright = "All rights reserved to Bold Noises"
+copyright = "All rights reserved to RelnoBlank"
 author = "Kami Faure"
 ShowShareButtons = true
 comments = true
@@ -61,10 +69,6 @@ ShowBreadCrumbs = true
 TocOpen = true
 ShowReadingTime = true
 ShowPostNavLinks = true
-
-[socialIcons]
-name = "github"
-url = "https://github.com/KamiZomby"
 
 [Author]
   name = "Kami Faure"
