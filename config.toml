@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-gb"
-title = "no rel tag"
+title = "noreltag"
 paginate = 5
 theme = "PaperMod"
 
