@@ -65,7 +65,7 @@
   {{- end }}
   <span>---</span>
   {{- if (ne (.Param "hideSummary") true) }}
-  <section class="entry-content" style="color:black;">
+  <section class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </section>
   {{- end }}
