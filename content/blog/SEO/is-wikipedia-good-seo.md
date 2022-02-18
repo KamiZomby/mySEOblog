@@ -7,8 +7,10 @@ description: Should you build backlinks with Wikipedia? Is it good for ranking o
 keywords: ['SEO','Wikipedia SEO']
 blog: SEO
 tags: ['Off-Page SEO']
+draft: true
 cover:
-    image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+    image: ""
+    alt: ""
 ---
 WIP
 

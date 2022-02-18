@@ -5,11 +5,10 @@ date: 2022-01-14
 description: We focus on the key essentials for you to do SEO yourself and where you should seek professionals for advanced results.
 blog: SEO
 tags: ['Talks & News']
-math: true
+draft: true
 keywords: ['SEO for beginners','DIY SEO']
 cover:
     image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
-keyword: "SEO"
 ---
 WIP
 

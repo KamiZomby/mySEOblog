@@ -5,7 +5,7 @@
     --main-width: 720px;
     --header-height: 60px;
     --footer-height: 60px;
-    --radius: 8px;
+    --radius: 0px;
     --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
@@ -16,6 +16,13 @@
     --code-bg: rgb(255, 255, 255);
     --border: rgb(238, 238, 238);
 }
+
+.header {
+    background: var(--code-bg);
+}
+.header .dark {
+    background: var(--entry);
+}
 .post-single {
     padding: 4%;
 }
@@ -23,6 +30,11 @@
 a {
     color: #BA470B;
 }
+
+.breadcrumbs {
+    margin-bottom: 4px;
+}
+
 .list {
     background-color: #f7f7f7;
     opacity: 0.8;
@@ -41,10 +53,27 @@ a {
 .tags-section {
     margin: 10px 0px 5px 0px;
 }
+.grey-tags {
+    color:grey; text-decoration:underline;
+}
 
-.post-entry, .paginav, .share-buttons, .post-tags a {
-    border-radius: 0px;
+.toc {
     border: 0px;
+}
+
+.post-entry, .paginav, .paginav a,.share-buttons, .post-tags a {
+    border: 0px;
+}
+
+.share-buttons {
+    padding-inline-start: 0px;
+    display: block;
+    margin-top: 8px;
+    background: none;
+}
+
+.post-single {
+    padding: 0px;
 }
 
 .paginav {

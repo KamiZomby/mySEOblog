@@ -3,6 +3,53 @@
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
+
+<div>
+
+  <!-- <div class="tags-section">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div> -->
+  {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- if .Params.tags }}
+      <span>Tags: {{- range ($.GetTerms "tags") }}
+      <a href="{{ .Permalink }}" class="grey-tags">{{ .LinkTitle }}</a>
+      {{- end }} |&nbsp;</span>
+
+    {{- end }}
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+
+</div>
+
+    <!-- {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+    <div class="tags-section" style="text-align: right;">
+      {{- if .Params.tags }}
+      <ul class="post-tags">
+        {{- range ($.GetTerms "tags") }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div> -->
+<hr />
     <h1 class="post-title">
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
@@ -12,15 +59,9 @@
       {{ .Description }}
     </div>
     {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <div class="post-meta">
-      {{- partial "post_meta.html" . -}}
-      {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
-      {{- partial "post_canonical.html" . -}}
-    </div>
-    <div class="tags-section">
-    {{- end }}
+    
+  <!-- <div class="tags-section">
+
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
@@ -28,7 +69,7 @@
       {{- end }}
     </ul>
     {{- end }}
-  </div>
+  </div> -->
   </header>
   
   {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden }}
@@ -44,7 +85,6 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
-
  
   <footer class="post-footer">
   <hr />

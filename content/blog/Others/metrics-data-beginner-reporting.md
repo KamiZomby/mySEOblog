@@ -7,6 +7,8 @@ keywords: ['SEO for beginners','DIY SEO']
 blog: Other Tools
 tags: ['Reporting']
 math: true
-ShowBreadCrumbs: true
+draft: true
+cover:
+    image: "https://ahrefs.com/blog/wp-content/uploads/2022/01/1-blogging-revenue-sources-statistics.png"
 ---
 WIP
