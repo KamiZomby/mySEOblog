@@ -10,7 +10,7 @@ tags: ['Paid Marketing']
 math: true
 ShowToc: true
 cover:
-    image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
+    image: ""
 ---
 Google Ads is a powerful tool to advertise online and reach people who never heard of your cause before simply by using their search behaviour. But should your charity take advantage of this tool? With so many conditions, do you have the time to keep up with your account? Is your website ready at all to send paid traffic there?
 
