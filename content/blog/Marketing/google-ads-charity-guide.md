@@ -64,10 +64,10 @@ Use the right conversion actions, target the right audience and read all G.Ads r
 ## 👎🏻 Cons
 
 - The conditions are limiting your reach and potential donations
-- the keywords selection might not always fit your needs/purposes
-- Although you drive traffic to your website, people might not be interested in donating
-(so your conversion is lower than regular accounts, which can drop your CTR)
-- you have to maintain your account regularly to avoid suspension.
+- Can't use display ads & responsive text/display ads
+- The keywords selection might not always fit your needs/purposes
+- Although you drive traffic to your website, people might not be interested in donating, so your conversion is lower than regular accounts, which can drop your CTR.
+- You have to maintain your account regularly to avoid suspension.
 If you don’t have the time or manpower to keep checking your google ads account, you might pass on some warnings resulting in suspension of your ad account. A CTR keeps changing everyday, it can fall and rise sharply in a few days, which is why it’s important to keep track of your progression.
 
 ---
