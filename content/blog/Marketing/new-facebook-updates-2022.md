@@ -8,6 +8,7 @@ blog: Marketing
 tags: ['Talks & News']
 ShowToc: true
 draft: false
+ShowBreadCrumbs: true
 cover:
     image: 
     alt:
