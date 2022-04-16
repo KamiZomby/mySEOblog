@@ -5,6 +5,8 @@ paginate = 5
 theme = "PaperMod"
 
 enableEmoji = true
+enableRobotsTXT = true
+
 
 [analytics.google]
 siteVerificationTag = "XYZabc"
@@ -16,11 +18,11 @@ siteVerificationTag = "XYZabc"
 
 [params.homeInfoParams]
 Title = "SEO & PPC Blog"
-Content = '''Learn & implement the right SEO and PPC tools for your creative business or career
+Content = '''Learn & implement the right SEO and PPC strategies for your business or career
 - 
-- We talk about news in the industry, on-page/off-page SEO, paid & organic marketing and how to get familiar with data & reporting.
+- We talk about news in the industry, tech/on-page/off-page SEO, paid & organic marketing + how to interpret data & reporting.
 -
-- Blog Categories: [SEO](/blog/seo) | [PPC](/blog/marketing) | [Other Tools](/blog/others) | [About Me](/about/)
+- Blog Categories: [SEO](/blog/search-engine-optimisation/) | [PPC](/blog/marketing) | [Other Tools](/blog/others) | [Talks & News](/tags/talks-news/) | [About](/about/)
 - Latest posts below 👇 '''
 
 [params.profileMode]
@@ -42,7 +44,7 @@ weight = 1
 
     [[languages.en.menu.main]]
     name = "SEO"
-    url = "/blog/seo/"
+    url = "/blog/search-engine-optimisation/"
     weight = 6
 
 [[languages.en.menu.main]]
@@ -60,7 +62,7 @@ weight = 1
 # env = "production"
 description = "noreltag is an SEO & PPC blog"
 logo = "favicon-32x32.png"
-copyright = "All rights reserved to RelnoBlank"
+copyright = "All rights reserved to noreltag"
 author = "Kami Faure"
 ShowShareButtons = true
 comments = true
