@@ -1,5 +1,5 @@
 ---
-title: Posts
-summary: Contains posts related to SEO & PPC
-description: Contains posts related to SEO & PPC
+title: SEO & PPC blog
+summary: noreltag is an SEO & PPC blog
+description: noreltag is an SEO & PPC blog
 ---

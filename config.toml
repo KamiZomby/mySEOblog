@@ -59,7 +59,6 @@ weight = 1
 
 
 [params]
-# env = "production"
 description = "noreltag is an SEO & PPC blog"
 logo = "favicon-32x32.png"
 copyright = "All rights reserved to noreltag"
