@@ -7,7 +7,7 @@ description: Does internal linking bare any importance for SEO? In short, YES! T
 keywords: ['SEO','Internal Links']
 blog: SEO
 tags: ['On-Page SEO']
-draft: false
+draft: true
 ShowToc: true
 cover:
     image: ""
